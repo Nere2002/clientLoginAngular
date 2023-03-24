@@ -10,6 +10,8 @@ import {FormsModule} from "@angular/forms";
 import {RouterModule, Routes} from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './register/register.component';
+import { PreguntasComponent } from './preguntas/preguntas.component';
+import { FormComponent } from './form/form.component';
 
 
 const firebaseConfig = {
@@ -30,7 +32,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    PreguntasComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
